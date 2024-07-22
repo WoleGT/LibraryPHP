@@ -60,10 +60,14 @@
     #newAcc{
         text-decoration:none;
     }
+    footer {
+    word-spacing: 2px;
+    text-align: center;
+}
     
 </style>
 <body class="bg-primary">
-    <h1>Spicy Travels n Tour Ltd <br><img src="./image/spicy banner.jpg" width="5%", height="5%"></h1>
+    <h1>Spicy Travels n Tour Ltd <br><img src="./img/spicy banner.jpg" width="5%", height="5%"></h1>
     <div>
         <h4>Consultation Booking </h4>
         <form action="loginprocess.php" method="post">
@@ -72,14 +76,14 @@
                 <input type="text" name="email" style="width: 90%;" placeholder="me@example.com"  class="form-control">
             </p>
             <p>
-                <label>Password <a href="#" id="pw">Forgot?</a></label>
+                <label>Password <a href="forgotpassword.php" id="pw">Forgot?</a></label>
                 <input type="password" name="password" style="width: 90%;" placeholder="password..." class="form-control">
                 <input type="radio"> Remember Me
             </p>
             <button type="submit" class="btn btn-primary">Login</button>
         </form>
-            <div class="seperator">or</div>
-
+            <hr>
+            <!-- <div class="seperator">or</div> -->
             <button class="btn-xs bg-info"><a href="https://facebook.com"></a><i class="bi bi-facebook"></i> Sign in with Facebook</button>
             
             <br>
@@ -87,8 +91,10 @@
             <p>New here? <a href="newaccform.php" id="newAcc">Create an Account</a></p>
 
     </div>
-    
 
+    <footer style="color:black">All Right Reserved 2024 ©Spicy Travels n Tour Ltd RC: 1549808.     Developer email: contact@wolegt.dev</footer>
+    
+    </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

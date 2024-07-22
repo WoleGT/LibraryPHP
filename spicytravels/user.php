@@ -50,17 +50,17 @@ class User{
     }
 
 
-    // public function booking($date,$time)
-    // {
-    //     $sql = "INSERT into user SET date='$date',time='$time'";
-    //     $dbcon = $this->dbcon->query($sql);   
-    //     if($this->dbcon->affected_rows == 1)  
-    //     {
-    //         return true;
-    //     }else{
-    //         return false;
-    //     }
-    // }
+    public function booking($date,$time)
+    {
+        $sql = "INSERT into user SET date='$date',time='$time'";
+        $dbcon = $this->dbcon->query($sql);   
+        if($this->dbcon->affected_rows == 1)  
+        {
+            return true;
+        }else{
+            return false;
+        }
+    }
 
 
 }  

@@ -19,7 +19,7 @@
 
 </style>
 
-<body>
+<body class='bg-primary'>
 <div>
 
     <form action="newaccformprocess.php" method="post" id="my-form">
@@ -54,5 +54,9 @@
         <button type="submit" class="btn btn-success">Submit</button>
     </form>
 </div>
+
+
+<footer style="color:black">All Right Reserved 2024 ©Spicy Travels n Tour Ltd RC: 1549808.     Developer email: contact@wolegt.dev</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

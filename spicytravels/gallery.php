@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy Travel n Tour Ltd</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<style>
+        #logo{
+            border-radius: 20%;
+        }
+        #logo4{
+            border-radius: 20%;
+        }
+</style>
+
+ </head>
+        <body class="font-primary">
+                <main class="w-full">
+                <section class="w-full h-[100vh]  bg-header  bg-cover bg-no-repeat bg-center bg-color1 bg-blend-multiply bg-opacity-60 " >
+                    <section class="w-full flex flex-wrap justify-center ">
+                        <header 
+                        class="w-[85%]  xl:w-[73%]  container hidden lg:flex justify-between h-[60px]  items-center py-[45px] border-b-[1px] border-white border-opacity-40">
+                        <figure class="w-[140px]">
+                           <img src="img/spicy banner.jpg" alt="" class="w-[50%]" id="logo">
+                        </figure>
+                        <nav class="h-[100%] md:w-[70%]">
+                            <ul class="h-[100%] flex items-center gap-8 justify-end">
+                                <li class="list-none  "><a class="decoration-none text-white hover:text-color3 transition-all duration-500"
+                                        href="">Home</a></li>
+                                <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                                        href="about.html">About</a></li>
+                                <li class="list-none "><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                                        href="tours.html">Tours</a></li>
+                                <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                                        href="destination.html">Destination</a></li>
+                                <li class="list-none "><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                                        href="blog.html">Blog</a></li>
+                                <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                                        href="gallery.html">Gallery</a></li>
+                                <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                                        href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+
+
+    <div>             
+    <p>this is gallery</p>
+    </div>
+
+   <!-- footer -->
+    <section class="w-full flex justify-center h-auto  bg-color3">
+      <footer class="w-full container h-auto flex flex-col 2xl:px-36 ">
+              <div class="flex justify-center border items-center boder-1 border-color5 my-10 flex-wrap mx-6 ">
+                      <div class="w-full lg:w-[30%] flex  items-center py-2 lg:border-r-2 lg:border-r-color5 my-5 ps-8 lg:ps-0" >
+                              <i class="bi bi-telephone-outbound text-4xl me-4 text-white bg-color1 p-3"></i>
+                              <div class="w-full text-white"><p class="font-secondary">Call us</p><p>08034498080</p></div>
+                      </div>
+                      <div class="w-full lg:w-[35%] flex items-center py-2 lg:border-r-2 lg:border-r-color5 my-5 ps-8" >
+                              <i class="bi-envelope-paper text-4xl me-4 text-white bg-color1 p-3"></i>
+                              <div class="w-full text-white"><p class="font-secondary">Send us an Email</p><p>info@spicytravelsntour.com</p></div>
+                      </div>
+                      <div class="w-full lg:w-[30%] flex items-center py-2 my-5 ps-8" >
+                              <i class="bi bi-map text-4xl me-4 text-white bg-color1 p-3 "></i>
+                              <div class="w-full text-white"><p class="font-secondary">Address</p><p>24, Kakuri Musa Street, Yakowa Estate, NAFDAC, Kaduna </p></div>
+                      </div>
+              </div>
+              <div class="flex  justify-between  my-10 flex-wrap  ">
+                      <div class="w-full md:w-[30%] flex flex-col py-2  my-5 px-6 " >
+                              <figure class="w-[80%]">
+                                      <img src="./img/spicy banner.jpg" alt="" class="w-[50%]" id="logo4">
+                              </figure>
+                              <p class="text-color6 my-5">Quisque imperdiet sapien porttito the bibendum sellentesque the commodo erat acar accumsa lobortis, enim diam the nesuen.</p>
+                              <ul class="flex  ">
+                                      <li class="me-5"><a href="https://instagram/kenny george-taylor"><i class="bi bi-instagram text-white bg-color1 p-3 rounded-[50%]"></i></a></li>
+                                      <li class="me-5"><a href=""><i class="bi bi-github text-white  bg-color1 p-3 rounded-[50%]"></i></a></li>
+                                      <li class="me-5"><a href=""><i class="bi bi-linkedin text-white  bg-color1 p-3 rounded-[50%]"></i></a></li>
+                              </ul>
+                      </div>
+                      <div class="w-full md:w-[30%] flex flex-col py-2  my-5 md:ps-20 px-6 " >
+                            <p class="font-secondary text-white text-xl xl:text-2xl">Quick Links</p>
+                            <ul class="mt-7 px-6">
+                              <li class="my-2 list-disc marker:text-color1"><a href="" class="text-color6">About</a></li>
+                              <li class="list-disc marker:text-color1"><a href=""  class="text-color6">Tours</a></li>
+                              <li class="my-2 list-disc marker:text-color1"><a href=""  class="text-color6">Blog</a></li>
+                            </ul>
+                      </div>
+                      <div class="w-full md:w-[28%] flex flex-col  py-2 my-5 px-6 md:px-0 " >
+                            <p class="font-secondary text-2xl text-white ">Subscribe</p>
+                            <p class="text-color6 mt-5">Sign up for our monthly blogletter to stay informed about travel and tours</p>
+                            <form action="" class="mt-5 flex w-full flex-wrap"><input type="email" placeholder="Email Address" class="px-2 py-5">
+                      <a href="" class="text-white bg-color4 py-5 px-3 flex mt-0 md:mt-2 lg:mt-0">Send</a></form>
+                      </div>
+              </div>
+              <p class="text-stone-300 text-left py-5  text-[14px] relative before:content-[''] before:h-[3px] before:w-[100%] before:bg-stone-400 before:absolute before:top-0 before:bg-opacity-50">©2024 Spicy Travels n Tour. All rights reserved Ltd. developer: info@WoleGT.dev</p>
+      </footer>
+  </section>
+
+</main>
+</body>
+<script src="js/master.js"></script>
+
+ </body>
+ </html>

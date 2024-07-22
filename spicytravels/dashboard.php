@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<style>
+    body{
+        color:white;
+        margin:0%;
+        padding: 5%;
+    }
+</style>
+<body class="bg-primary">
     
 <?php
 
@@ -22,35 +30,20 @@ $name=$_SESSION['firstname'];
 
 
  <p>kindly select your prefrence below</p>
- <p>note a session duration is 30mins</p>
+ <p>note a session duration is 20mins</p>
  
- <form>
-    <label>Consultation Type:</label>
-     <br>
-     <input type="checkbox">Holiday
-     <input type="checkbox">Visa
-     <input type="checkbox">Migration
-     <input type="checkbox">Tour
-     <br>
-     <br>
-    <label>Date:</label>
-    <!-- <input name="inDate" type="date" name="date"> -->
-    <input name="date" type="date" value="<?php echo date('Y-m-d',strtotime($data['congestart']))?>">
-    <br><br>
-    <label>Time:</label>
-    <!-- <input name="inTime" type="time" name="time"> -->
-    <input name='time' type="time" value="<?php echo time('H:m',strtotime($data['time_d']))?>">
-    
-    <br><br>
-    <button type="submit" class="btn btn-danger">Click to Reconfirm Date & Time before submission</button>
-    <p id="date-time-Str">d=??? t=???</p>
-    <br>
-    <button type="submit" class="btn btn-success">Submit</button>
-</form>
  <?php
-  header('Location: paymentgateway.php'); 
-  ?>  
+ include_once('bookingform.php')
+ ?>
 
+
+
+
+<br><br>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</head>
+ 
 
 
  
