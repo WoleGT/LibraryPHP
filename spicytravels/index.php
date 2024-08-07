@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 <style>
         #logo{
-            border-radius: 20%;
+            border-radius: 50%;
         }
         #logo4{
-            border-radius: 20%;
+            border-radius: 50%;
         }
 </style>
 
@@ -23,7 +23,7 @@
             <header 
             class="w-[85%]  xl:w-[73%]  container hidden lg:flex justify-between h-[60px]  items-center py-[45px] border-b-[1px] border-white border-opacity-40">
             <figure class="w-[140px]">
-               <img src="img/spicy banner.jpg" alt="" class="w-[50%]" id="logo">
+               <img src="img/spicy banner.jpg" alt="" class="w-[50%] text-white  bg-color1 p-3 rounded-[50%]" id="logo">
             </figure>
             <nav class="h-[100%] md:w-[70%]">
                 <ul class="h-[100%] flex items-center gap-8 justify-end">
@@ -36,7 +36,7 @@
                     <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
                             href="destination.php">Destination</a></li>
                     <li class="list-none "><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
-                            href="facebook">Blog</a></li>
+                            href="https://www.facebook.com/profile.php?id=61559042624426&mibextid=ZbWKwL">Blog</a></li>
                     <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
                             href="gallery.php">Gallery</a></li>
                     <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
@@ -49,7 +49,7 @@
  <header
  class="w-[95%] sm:w-[70%] md:w-[80%] container flex h-[60px] justify-between  items-center  lg:hidden  py-[45px] relative border-b-[1px] border-white border-opacity-40 ">
  <figure class="w-[140px]"> 
-    <img src="./img/spicy banner.jpg" alt="" class="w-[100%]">
+    <img src="./img/spicy banner.jpg" alt="" class="w-[50%] text-white  bg-color1 p-3 rounded-[50%]" id="logo">
  </figure>
  <div class=" w-1/2 h-full flex justify-end items-center ">
      <i class="bi bi-list text-3xl text-white cursor-pointer ham-menu-icon"></i>
@@ -149,7 +149,7 @@
                         <p class="text-color6 my-4">Hotel, Tour, Cruise, Horse-ride....</p>
                         <div class="flex items-center"> <i class="bi bi-check text-white bg-color4  rounded-[50%] px-2 py-1 me-3"></i> <p class="text-color6">10+ Years of Experience</p></div>
                         <div class="flex items-center my-4"> <i class="bi bi-check text-white bg-color4  rounded-[50%] px-2 py-1 me-3"></i> <p class="text-color6">100+ Tour Destinations</p></div>
-                        <div class="flex items-center"><i class="bi bi-telephone-forward text-color1 text-2xl me-3"></i><div><p class="text-color6 ">For information</p><p class="text-color6 text-2xl">08034498080</p></div></div>
+                        <div class="flex items-center"><i class="bi bi-telephone-forward text-color1 text-2xl me-3"></i><div><p class="text-color6 ">For information</p><p class="text-color6 text-2xl">+234 9042153922</p></div></div>
                 </div>
                 <div class=" w-full lg:w-[50%]   flex flex-col justify-center items-center bg-color5 h-auto pb-8 lg:pb-0 mt-10 lg:mt-0 ">
                         <figure class="w-[70%] h-[500px] relative">
@@ -169,14 +169,14 @@
                                         <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
                                                 <p class="text-3xl text-color3 capitalize font-secondary">Maldives tour</p>
                                                 <p class="text-color1 mb-4">$2.500 / per persons</p>
-                                                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                                <p class="text-color6">Travel was not easy and there was no easy way to drink. Now she wants to sit down and live in the living room</p>
                                                 <div class="flex flex-wrap my-4">
                                                         <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">12 Days</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">Maldives</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">12+</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2">9.8 Superb</p></div>
                                                 </div>
-                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+                                                <a href="https://wa.me/+2349042153922" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
                                         </div>
                                         <img src="img/maldives1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
                                         <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">Maldives</p>
@@ -189,14 +189,14 @@
                                         <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
                                                 <p class="text-3xl text-color3 capitalize font-secondary">Roma</p>
                                                 <p class="text-color1 mb-4">$1.300 / per persons</p>
-                                                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                                <p class="text-color6">Travel was not easy and there was no easy way to drink. Now she wants to sit down and live in the living room</p>
                                                 <div class="flex flex-wrap my-4">
                                                         <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">6 Days</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">Italy</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">10+</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2"> 9.5 Superb</p></div>
                                                 </div>
-                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+                                                <a href="https://wa.me/+2349042153922" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
                                         </div>
                                         <img src="img/2.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
                                         <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">italy</p>
@@ -209,14 +209,14 @@
                                         <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
                                                 <p class="text-3xl text-color3 capitalize font-secondary">France</p>
                                                 <p class="text-color1 mb-4">$400 / per persons</p>
-                                                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                                <p class="text-color6">Travel was not easy and there was no easy way to drink. Now she wants to sit down and live in the living room</p>
                                                 <div class="flex flex-wrap my-4">
                                                         <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">10 Days</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">France</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">6+</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2">9.5 Superb</p></div>
                                                 </div>
-                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+                                                <a href="https://wa.me/+2349042153922" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
                                         </div>
                                         <img src="img/france1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
                                         <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">France</p>
@@ -229,14 +229,14 @@
                                         <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
                                                 <p class="text-3xl text-color3 capitalize font-secondary">greece tour</p>
                                                 <p class="text-color1 mb-4">$500 / per persons</p>
-                                                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                                <p class="text-color6">Travel was not easy and there was no easy way to drink. Now she wants to sit down and live in the living room</p>
                                                 <div class="flex flex-wrap my-4">
                                                         <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">10 Days</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">greece</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">12+</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2">9.3 Superb</p></div>
                                                 </div>
-                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+                                                <a href="https://wa.me/+2349042153922" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
                                         </div>
                                         <img src="img/greece1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
                                         <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-[-15px] top-12 rotate-[-90deg] ">greece</p>
@@ -249,14 +249,14 @@
                                         <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
                                                 <p class="text-3xl text-color3 capitalize font-secondary">Canada tour</p>
                                                 <p class="text-color1 mb-4">$300 / per persons</p>
-                                                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                                <p class="text-color6">Travel was not easy and there was no easy way to drink. Now she wants to sit down and live in the living room</p>
                                                 <div class="flex flex-wrap my-4">
                                                         <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">7 Days</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">canada</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">10+</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2"> 9.3 Superb</p></div>
                                                 </div>
-                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+                                                <a href="https://wa.me/+2349042153922" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
                                         </div>
                                         <img src="img/canada1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
                                         <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-[-15px] top-12 rotate-[-90deg] ">canada</p>
@@ -269,14 +269,14 @@
                                         <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
                                                 <p class="text-3xl text-color3 capitalize font-secondary">dubai</p>
                                                 <p class="text-color1 mb-4">$200 / per persons</p>
-                                                <p class="text-color6">Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                                <p class="text-color6">Travel was not easy and there was no easy way to drink. Now she wants to sit down and live in the living room</p>
                                                 <div class="flex flex-wrap my-4">
                                                         <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">7 Days</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">dubai</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">10+</p></div>
                                                         <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2">9.8 Superb</p></div>
                                                 </div>
-                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
+                                                <a href="https://wa.me/+2349042153922" class="underline decoration-color1 text-color6 flex mb-2">Tour details</a>
                                         </div>
                                         <img src="img/44-1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
                                         <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-[-15px] top-12 rotate-[-90deg] ">dubai</p>
@@ -294,25 +294,25 @@
                 <div class="w-full md:w-[20%] my-5 ">
                         <figure class="flex flex-col items-center  group">
                                 <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-airplane text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-airplane text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
-                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">600</p><p class="text-xl">Flight Booking</p></figcaption>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">1000</p><p class="text-xl">Flight Booking</p></figcaption>
                         </figure>
                 </div>
                 <div class="w-full md:w-[20%] my-5">
                         <figure class="flex flex-col items-center  group">
                                 <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-house-heart text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-house-heart text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
-                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">250</p><p class="text-xl">Amazing Tour</p></figcaption>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">100</p><p class="text-xl">Amazing Tour</p></figcaption>
                         </figure>
                 </div>
                 <div class="w-full md:w-[20%] my-5">
                         <figure class="flex flex-col items-center  group">
                                 <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-rocket text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-rocket text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
-                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">100</p><p class="text-xl">Cruises Booking</p></figcaption>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">50</p><p class="text-xl">Cruises Booking</p></figcaption>
                         </figure>
                 </div>
                 <div class="w-full md:w-[20%] my-5">
                         <figure class="flex flex-col items-center  group">
                                 <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-postage-heart text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-postage-heart text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
-                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">100</p><p class="text-xl">Hotel Booking</p></figcaption>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">250</p><p class="text-xl">Hotel Booking</p></figcaption>
                         </figure>
                 </div>
              
@@ -339,7 +339,7 @@
                                         <div class="flex w-[33%]"><i class="bi bi-geo-alt text-color1"></i><p class="text-color6">Parma</p></div>
                                         
                                 </div>
-                                <a href="" class="capitalize flex py-4 relative  text-color1 before:content-[''] before:h-[1px] before:absolute before:w-[100%] before:bg-color6 before:bg-opacity-50 before:top-0"><p>view all places</p><i class="bi bi-arrow-right"></i></a>
+                                <a href="https://wa.me/+2349042153922" class="capitalize flex py-4 relative  text-color1 before:content-[''] before:h-[1px] before:absolute before:w-[100%] before:bg-color6 before:bg-opacity-50 before:top-0"><p>view all places</p><i class="bi bi-arrow-right"></i></a>
 
                         </div>
                 </div>
@@ -367,7 +367,7 @@
                                                <div class="flex after:contetn-[''] after:h-[1px] after:bg-op-50 after:w-[20%] after:bg-white after:absolute after:bottom-[-8px] group-hover:after:w-[90%]  after:transition-all after:duration-1000" ><i class="bi bi-geo-alt text-2xl text-white me-2"></i> <p class="capitalize font-secondary text-3xl">Canada</p></div>
                                                <div class="flex justify-between absolute  mt-5 w-full  ">
                                                 <p>2 Tours Package</p>
-                                                <a href="" class="flex  me-9 " >Explore<i class="bi bi-arrow-right"></i></a>
+                                                <a href="https://wa.me/+2349042153922" class="flex  me-9 " >Explore<i class="bi bi-arrow-right"></i></a>
                                             </div>
                                                 
                                         </figcaption>
@@ -379,7 +379,7 @@
                                                <div class="flex after:contetn-[''] after:h-[1px] after:bg-op-50 after:w-[20%] after:bg-white after:absolute after:bottom-[-8px] group-hover:after:w-[90%]  after:transition-all after:duration-1000" ><i class="bi bi-geo-alt text-2xl text-white me-2"></i> <p class="capitalize font-secondary text-3xl">Maldives</p></div>
                                                <div class="flex justify-between absolute  mt-5 w-full  ">
                                                 <p>2 Tours Package</p>
-                                                <a href="" class="flex  me-9  " >Explore<i class="bi bi-arrow-right"></i></a>
+                                                <a href="https://wa.me/+2349042153922" class="flex  me-9  " >Explore<i class="bi bi-arrow-right"></i></a>
                                             </div>
                                                 
                                         </figcaption>
@@ -391,7 +391,7 @@
                                                <div class="flex after:contetn-[''] after:h-[1px] after:bg-op-50 after:w-[20%] after:bg-white after:absolute after:bottom-[-8px] group-hover:after:w-[90%]  after:transition-all after:duration-1000" ><i class="bi bi-geo-alt text-2xl text-white me-2"></i> <p class="capitalize font-secondary text-3xl">Italy</p></div>
                                                <div class="flex justify-between absolute  mt-5 w-full  ">
                                                 <p>6 Tours Package</p>
-                                                <a href="" class="flex me-9 " >Explore<i class="bi bi-arrow-right"></i></a>
+                                                <a href="https://wa.me/+2349042153922" class="flex me-9 " >Explore<i class="bi bi-arrow-right"></i></a>
                                             </div>
                                                 
                                         </figcaption>
@@ -419,7 +419,7 @@
                                              <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p>Aug</p><p class="font-bold">07</p></div>
                                              <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-3 group-hover:bottom-10 transition-all duration-1000 ">
                                                      <p class="uppercase text-color4">travel</p>
-                                                     <p class="capitalize text-color3 font-secondary text-2xl">practical information for travelling to egypt</p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">practical information for travelling to Dubai</p>
                                              </figcaption>
                                      </figure>
                                      <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
@@ -455,7 +455,7 @@
                 <div class="flex justify-center border items-center boder-1 border-color5 my-10 flex-wrap mx-6 ">
                         <div class="w-full lg:w-[30%] flex  items-center py-2 lg:border-r-2 lg:border-r-color5 my-5 ps-8 lg:ps-0" >
                                 <i class="bi bi-telephone-outbound text-4xl me-4 text-white bg-color1 p-3"></i>
-                                <div class="w-full text-white"><p class="font-secondary">Call us</p><p>08034498080</p></div>
+                                <div class="w-full text-white"><p class="font-secondary">Call us</p><p>+234 9042153922</p></div>
                         </div>
                         <div class="w-full lg:w-[35%] flex items-center py-2 lg:border-r-2 lg:border-r-color5 my-5 ps-8" >
                                 <i class="bi-envelope-paper text-4xl me-4 text-white bg-color1 p-3"></i>
@@ -469,30 +469,32 @@
                 <div class="flex  justify-between  my-10 flex-wrap  ">
                         <div class="w-full md:w-[30%] flex flex-col py-2  my-5 px-6 " >
                                 <figure class="w-[80%]">
-                                        <img src="./img/spicy banner.jpg" alt="" class="w-[50%]" id="logo4">
+                                        <img src="./img/spicy banner.jpg" alt="" class="w-[50%] text-white  bg-color1 p-3 rounded-[50%]" id="logo4">
                                 </figure>
-                                <p class="text-color6 my-5">Quisque imperdiet sapien porttito the bibendum sellentesque the commodo erat acar accumsa lobortis, enim diam the nesuen.</p>
+                                <p class="text-color6 my-5">Social</p>
                                 <ul class="flex  ">
-                                        <li class="me-5"><a href="https://instagram/kenny george-taylor"><i class="bi bi-instagram text-white bg-color1 p-3 rounded-[50%]"></i></a></li>
-                                        <li class="me-5"><a href="https://www.facebook.com/spicytravelsntour"><i class="bi bi-facebook text-white  bg-color1 p-3 rounded-[50%]"></i></a></li>
+                                <li class="me-5"><a href="https://www.facebook.com/spicytravelsntour"><i class="bi bi-facebook text-white  bg-color1 p-3 rounded-[50%]"></i></a></li>
+                                        <li class="me-5"><a href="https://www.instagram.com/spicytravelsntour"><i class="bi bi-instagram text-white bg-color1 p-3 rounded-[50%]"></i></a></li>
                                         <li class="me-5"><a href=""><i class="bi bi-linkedin text-white  bg-color1 p-3 rounded-[50%]"></i></a></li>
                                 </ul>
                         </div>
                         <div class="w-full md:w-[30%] flex flex-col py-2  my-5 md:ps-20 px-6 " >
                               <p class="font-secondary text-white text-xl xl:text-2xl">Quick Links</p>
                               <ul class="mt-7 px-6">
-                                <li class="my-2 list-disc marker:text-color1"><a href="" class="text-color6">About</a></li>
-                                <li class="list-disc marker:text-color1"><a href=""  class="text-color6">Tours</a></li>
-                                <li class="my-2 list-disc marker:text-color1"><a href=""  class="text-color6">Blog</a></li>
+                                <li class="my-2 list-disc marker:text-color1"><a href="https://www.facebook.com/profile.php?id=61559042624426&mibextid=ZbWKwL"  class="text-color6">Blog<i class="bi bi-facebook text-white p-3 rounded-[50%]"></i></a></li>
+                                <li class="my-2 list-disc marker:text-color1"><a href="https://wa.me/+2349042153922" class="text-color6">Whatsapp</a></li>
                                 <li class="my-2 list-disc marker:text-color1"><a href="https://forms.gle/GGgWXGAKWWcADX9p6" class="text-color6">Consultation</a></li>
+                                
                         </ul>
                         </div>
                         <div class="w-full md:w-[28%] flex flex-col  py-2 my-5 px-6 md:px-0 " >
                               <p class="font-secondary text-2xl text-white ">Subscribe</p>
                               <p class="text-color6 mt-5">Sign up for our monthly blogletter to stay informed about travel and tours</p>
-                              <form action="" class="mt-5 flex w-full flex-wrap"><input type="email" placeholder="Email Address" class="px-2 py-5">
-                        <a href="" class="text-white bg-color4 py-5 px-3 flex mt-0 md:mt-2 lg:mt-0">Send</a></form>
-                        </div>
+                              <form action="processnewsletter.php" method="post" class="mt-5 flex w-full flex-wrap">
+                              <input type="email" name="email" placeholder="Email Address" class="px-2 py-5">
+                              <button type="submit" a href="" class="text-white bg-color4 py-5 px-3 flex mt-0 md:mt-2 lg:mt-0">Send</button>
+                             </form>
+                        </div>  
                 </div>
                 <p style="padding:20px">All Right Reserved 2024 ©Spicy Travels n Tour Ltd RC: 1549808.     Developer email: contact@wolegt.dev</p>
         </footer>

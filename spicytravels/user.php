@@ -38,8 +38,10 @@ class User{
             $hashedPassword = $row['password'];
             $confirmpassword=password_verify($password,$hashedPassword);      
             session_start();
+            $_SESSION['mywebsecurity']= "WoleGT.Dev";
             $_SESSION['firstname']=$row['firstname'];
             $_SESSION['id']=$row['id'];
+            
             if($confirmpassword){
                 return true;
             }else{

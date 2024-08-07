@@ -16,14 +16,20 @@
 <body class="bg-primary">
     
 <?php
+session_start();
+if(isset($SESSION['mywebsecurity']) && $_SESSION['mywebsecurity'] == 'WoleGT.Dev'){
 
+}else{
+    header('Location:homepage.php');
+    exit();
+}
 include_once("user.php");
 //create an object of the class
 $user = new User();
 //access all users
 $allUsers = $user->login();
 
-session_start();
+
 $name=$_SESSION['firstname'];
 ?> 
 <h1>Good evening <?php echo $name ?></h1>
